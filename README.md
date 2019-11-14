@@ -1,4 +1,4 @@
-# pandoc + khtmltopdf Docker Container
+# pandoc + wkhtmltopdf Docker Container
 
 Ubuntu xenial (16.04LTS) based container with pandoc and wkhtmltopdf preinstalled
 
