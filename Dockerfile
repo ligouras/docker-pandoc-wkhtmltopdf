@@ -15,4 +15,6 @@ RUN apt-get -y clean
 COPY github-markdown.css /
 COPY default-width.css /
 
+COPY img2b64.sh /
+
 CMD ["/bin/bash"]
