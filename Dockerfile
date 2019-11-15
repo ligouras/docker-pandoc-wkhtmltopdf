@@ -7,4 +7,6 @@ RUN apt-get install --no-install-recommends -y xvfb
 RUN apt-get install --no-install-recommends -y pandoc
 RUN apt-get install --no-install-recommends -y wkhtmltopdf
 
+COPY github-markdown.css /
+
 CMD ["/bin/bash"]
