@@ -8,5 +8,6 @@ RUN apt-get install --no-install-recommends -y pandoc
 RUN apt-get install --no-install-recommends -y wkhtmltopdf
 
 COPY github-markdown.css /
+COPY default-width.css /
 
 CMD ["/bin/bash"]
